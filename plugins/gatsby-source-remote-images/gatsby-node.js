@@ -18,6 +18,7 @@ exports.onCreateNode = async (
       cache,
       createNode,
       createNodeId: createContentDigest,
+      parentNodeId: node.id,
       reporter,
     })
 
